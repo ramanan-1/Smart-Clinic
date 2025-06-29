@@ -17,8 +17,8 @@ export class User{
     @IsEmail()
     email: string;
 
-    @Column()
-    phoneNumber: string;
+    // @Column()
+    // phoneNumber: string;
 
     @Column()
     hashedPassword: string;
